@@ -68,4 +68,4 @@ jobs:
             -H 'authorization: token ${{ secrets.GPATOKEN }}' \
             -H "Accept: application/vnd.github.v3+json" \
             $workflow_url/dispatches \
-            -d '{"ref":"${{ github.ref }}", "inputs": { "delays": "30m" }}'
+            -d '{"ref":"${{ github.ref }}", "inputs": { "delays": "10m" }}'
