@@ -7,7 +7,7 @@ on:
         description: 'Delayed time (Optional) 可选延迟时间'
         required: false
   schedule:
-    - cron: '0 23 * 1,2,7,8 *' # Schedule on CST 7 everyday during Jan. Feb. Jul. Aug.
+    - cron: '0 23 * * *' # Schedule on CST 7 everyday during Jan. Feb. Jul. Aug.
 
 jobs:
   bot:
